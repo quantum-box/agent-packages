@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tachyon Linear"
+  short_description: "Manage Linear issues through Tachyon CLI"
+  default_prompt: "Use $tachyon-linear to create, list, or update Linear issues through the Tachyon CLI."
