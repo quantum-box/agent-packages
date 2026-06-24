@@ -4,7 +4,7 @@ Codex and Claude Code plugin marketplace for Quantum Box agent workflows.
 
 ## Plugins
 
-- `tachyon`: use Tachyon browser, CLI, and Linear workflows from Codex or Claude Code.
+- `tachyon`: use Tachyon browser, CLI, Linear, and Slack notification workflows from Codex or Claude Code.
 
 ## Install
 
@@ -30,4 +30,4 @@ For local development:
 claude --plugin-dir ./plugins/tachyon
 ```
 
-The Claude plugin exposes `/tachyon:tachyon-browser`, `/tachyon:tachyon-cli`, and `/tachyon:tachyon-linear`. It also adds `remote-browser` to the Bash PATH while enabled.
+The Claude plugin exposes `/tachyon:tachyon-browser`, `/tachyon:tachyon-cli`, `/tachyon:tachyon-linear`, and `/tachyon:tachyon-slack-notify`. It also adds `remote-browser` to the Bash PATH while enabled.
