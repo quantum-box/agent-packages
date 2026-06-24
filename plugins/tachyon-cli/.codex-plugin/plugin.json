@@ -1,18 +1,18 @@
 {
   "name": "tachyon-cli",
-  "version": "0.1.0",
-  "description": "Tachyon CLI workflow skill for inspecting Cloud Apps, builds, deployments, and logs.",
+  "version": "0.2.0",
+  "description": "Tachyon CLI workflow skills for inspecting Cloud Apps, builds, deployments, logs, and Linear issues.",
   "author": {
     "name": "Quantum Box"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Tachyon CLI",
-    "shortDescription": "Inspect Tachyon Cloud Apps and builds with the CLI.",
-    "longDescription": "Use the Tachyon CLI to inspect Cloud Apps, build status, deployments, build logs, auth profiles, and live Cloud App failures while redacting secrets from output.",
+    "shortDescription": "Inspect Tachyon Cloud Apps, builds, logs, and Linear issues.",
+    "longDescription": "Use the Tachyon CLI to inspect Cloud Apps, build status, deployments, build logs, auth profiles, live Cloud App failures, and Linear issues while redacting secrets from output.",
     "developerName": "Quantum Box",
     "category": "Developer Tools",
     "capabilities": [],
-    "defaultPrompt": "Use the Tachyon CLI skill to inspect the latest Cloud App build status and summarize the result."
+    "defaultPrompt": "Use the Tachyon CLI skills to inspect Cloud App state or manage Linear issues through Tachyon."
   }
 }
