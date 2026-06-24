@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tachyon Slack Notify"
+  short_description: "Verify and send Tachyon CLI Slack notifications."
+  default_prompt: "Use $tachyon-slack-notify to switch tenants, send a Slack notification, and report the API response and any permission or destination configuration blockers."
