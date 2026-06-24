@@ -1,0 +1,16 @@
+{
+  "name": "remote-cdp-browser",
+  "description": "Quantum Box remote Chromium CDP browser gateway tools for Claude Code.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Quantum Box"
+  },
+  "repository": "https://github.com/quantum-box/agent-packages",
+  "skills": "./skills/",
+  "keywords": [
+    "agent-browser",
+    "browser",
+    "cdp",
+    "cloudflare-mesh"
+  ]
+}

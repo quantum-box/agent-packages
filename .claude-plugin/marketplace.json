@@ -1,0 +1,29 @@
+{
+  "name": "quantum-box-agent-packages",
+  "owner": {
+    "name": "Quantum Box"
+  },
+  "description": "Quantum Box Claude Code plugins for private agent workflows.",
+  "metadata": {
+    "description": "Quantum Box Claude Code plugins for private agent workflows."
+  },
+  "plugins": [
+    {
+      "name": "remote-cdp-browser",
+      "source": "./plugins/remote-cdp-browser",
+      "description": "Control the private k3s Cloudflare Mesh Chromium CDP browser gateway.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Quantum Box"
+      },
+      "repository": "https://github.com/quantum-box/agent-packages",
+      "category": "developer-tools",
+      "tags": [
+        "agent-browser",
+        "browser",
+        "cdp",
+        "cloudflare-mesh"
+      ]
+    }
+  ]
+}

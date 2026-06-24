@@ -1,6 +1,6 @@
 # Quantum Box Agent Packages
 
-Codex plugin marketplace for Quantum Box agent workflows.
+Codex and Claude Code plugin marketplace for Quantum Box agent workflows.
 
 ## Plugins
 
@@ -8,6 +8,26 @@ Codex plugin marketplace for Quantum Box agent workflows.
 
 ## Install
 
+### Codex
+
 ```bash
 codex plugin marketplace add .agents/plugins/marketplace.json
 ```
+
+### Claude Code
+
+From Claude Code:
+
+```text
+/plugin marketplace add quantum-box/agent-packages
+/plugin install remote-cdp-browser@quantum-box-agent-packages
+/reload-plugins
+```
+
+For local development:
+
+```bash
+claude --plugin-dir ./plugins/remote-cdp-browser
+```
+
+The Claude plugin exposes the skill as `/remote-cdp-browser:remote-cdp-browser` and adds `remote-browser` to the Bash PATH while the plugin is enabled.

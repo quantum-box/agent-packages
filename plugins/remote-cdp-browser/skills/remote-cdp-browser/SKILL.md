@@ -70,7 +70,16 @@ curl -sS -X DELETE "http://browser-cdp.intra.quantum-box.com:9222/sessions/${SES
 
 ## Wrapper Script
 
-Prefer the bundled helper when doing one-off checks:
+Prefer the bundled helper when doing one-off checks. In Claude Code, the plugin's `bin/` directory is added to PATH, so use `remote-browser` directly:
+
+```bash
+remote-browser \
+  --temporary \
+  --cleanup \
+  -- open https://example.com
+```
+
+When using this skill folder directly outside a Claude plugin install, resolve the script path relative to this skill directory:
 
 ```bash
 scripts/remote-browser.sh \
@@ -97,7 +106,6 @@ scripts/remote-browser.sh \
 ```
 
 The script prints the remote `session_id` and `cdp_ws_url` to stderr before running `agent-browser`.
-Resolve `scripts/remote-browser.sh` relative to this skill directory when the plugin is installed.
 
 ## Inspect Sessions
 
@@ -125,6 +133,7 @@ const browser = await chromium.connectOverCDP(
 
 - If commands affect the wrong browser, check whether the command used `http://.../sessions/<id>` instead of `ws://.../sessions/<id>`.
 - If a session has stale local `agent-browser` state, close it with `agent-browser --session <name> close` and reconnect with the WebSocket CDP URL.
+- If `remote-browser` is not found in Claude Code, verify the plugin is enabled and run `/reload-plugins`.
 - If the gateway is unreachable, verify the machine is on Cloudflare Mesh / WARP and check `/readyz`.
 - If Japanese text appears as boxes, verify the running session Pod uses the Playwright image with `fonts-noto-cjk`; the current gateway template installs it at startup.
 - If durable browser profile state is required after Pod deletion, the current gateway does not provide that yet. It needs per-session PVC-backed `--user-data-dir`.
