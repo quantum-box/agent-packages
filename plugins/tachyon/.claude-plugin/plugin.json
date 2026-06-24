@@ -1,6 +1,6 @@
 {
-  "name": "remote-cdp-browser",
-  "description": "Quantum Box remote Chromium CDP browser gateway tools for Claude Code.",
+  "name": "tachyon",
+  "description": "Tachyon agent workflows for remote browser control, Tachyon CLI operations, and Linear issue management.",
   "version": "0.1.0",
   "author": {
     "name": "Quantum Box"
@@ -8,9 +8,11 @@
   "repository": "https://github.com/quantum-box/agent-packages",
   "skills": "./skills/",
   "keywords": [
-    "agent-browser",
+    "tachyon",
     "browser",
     "cdp",
-    "cloudflare-mesh"
+    "cloud-apps",
+    "linear",
+    "cli"
   ]
 }

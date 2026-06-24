@@ -1,0 +1,18 @@
+{
+  "name": "tachyon",
+  "version": "0.1.0",
+  "description": "Tachyon agent workflows for remote browser control, Tachyon CLI operations, and Linear issue management.",
+  "author": {
+    "name": "Quantum Box"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tachyon",
+    "shortDescription": "Use Tachyon browser, CLI, and Linear workflows.",
+    "longDescription": "Use Tachyon workflows for the private k3s Cloudflare Mesh CDP browser gateway, Tachyon CLI Cloud App/build/log inspection, and Linear issue management through the Tachyon CLI.",
+    "developerName": "Quantum Box",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Use the Tachyon skills to control the remote browser, inspect Tachyon Cloud App state, or manage Linear issues."
+  }
+}
