@@ -1,9 +1,9 @@
 ---
-name: remote-cdp-browser
-description: Use the Quantum Box k3s Cloudflare Mesh remote Chromium CDP gateway with agent-browser, Playwright, Codex, or Claude Code. Trigger when a task needs a browser reachable from Sakura VPS or another Mesh client, remote CDP automation, temporary browser sessions, named browser sessions, or AgentCore Browser-like session-per-Pod browser control through browser-cdp.intra.quantum-box.com.
+name: tachyon-browser
+description: Use the Tachyon k3s Cloudflare Mesh remote Chromium CDP gateway with agent-browser, Playwright, Codex, or Claude Code. Trigger when a task needs a browser reachable from Sakura VPS or another Mesh client, remote CDP automation, temporary browser sessions, named browser sessions, or AgentCore Browser-like session-per-Pod browser control through browser-cdp.intra.quantum-box.com.
 ---
 
-# Remote CDP Browser
+# Tachyon Browser
 
 Use this skill to control the k3s-hosted Chromium CDP gateway at:
 

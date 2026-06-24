@@ -5,22 +5,10 @@
   },
   "plugins": [
     {
-      "name": "remote-cdp-browser",
+      "name": "tachyon",
       "source": {
         "source": "local",
-        "path": "./plugins/remote-cdp-browser"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "tachyon-cli",
-      "source": {
-        "source": "local",
-        "path": "./plugins/tachyon-cli"
+        "path": "./plugins/tachyon"
       },
       "policy": {
         "installation": "AVAILABLE",

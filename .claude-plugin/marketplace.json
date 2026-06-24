@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "remote-cdp-browser",
-      "source": "./plugins/remote-cdp-browser",
-      "description": "Control the private k3s Cloudflare Mesh Chromium CDP browser gateway.",
+      "name": "tachyon",
+      "source": "./plugins/tachyon",
+      "description": "Use Tachyon browser, CLI, and Linear workflows from Claude Code.",
       "version": "0.1.0",
       "author": {
         "name": "Quantum Box"
@@ -19,26 +19,10 @@
       "repository": "https://github.com/quantum-box/agent-packages",
       "category": "developer-tools",
       "tags": [
-        "agent-browser",
+        "tachyon",
         "browser",
         "cdp",
-        "cloudflare-mesh"
-      ]
-    },
-    {
-      "name": "tachyon-cli",
-      "source": "./plugins/tachyon-cli",
-      "description": "Inspect Tachyon Cloud Apps, builds, deployments, logs, and Linear issues with the Tachyon CLI.",
-      "version": "0.2.0",
-      "author": {
-        "name": "Quantum Box"
-      },
-      "repository": "https://github.com/quantum-box/agent-packages",
-      "category": "developer-tools",
-      "tags": [
-        "tachyon",
         "cloud-apps",
-        "build-logs",
         "linear",
         "cli"
       ]
