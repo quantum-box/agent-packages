@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tachyon CLI"
+  short_description: "Inspect Tachyon Cloud App builds and logs"
+  default_prompt: "Use $tachyon-cli to inspect the latest Tachyon Cloud App build status and summarize the result."
