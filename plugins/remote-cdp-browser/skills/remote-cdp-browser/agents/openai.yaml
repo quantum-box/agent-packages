@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remote CDP Browser"
+  short_description: "Use the k3s Mesh CDP browser gateway"
+  default_prompt: "Use $remote-cdp-browser to open a temporary remote browser session and verify a page."

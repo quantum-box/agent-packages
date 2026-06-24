@@ -1,0 +1,20 @@
+{
+  "name": "quantum-box-agent-packages",
+  "interface": {
+    "displayName": "Quantum Box Agent Packages"
+  },
+  "plugins": [
+    {
+      "name": "remote-cdp-browser",
+      "source": {
+        "source": "local",
+        "path": "./plugins/remote-cdp-browser"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
