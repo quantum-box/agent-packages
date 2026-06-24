@@ -24,6 +24,23 @@
         "cdp",
         "cloudflare-mesh"
       ]
+    },
+    {
+      "name": "tachyon-cli",
+      "source": "./plugins/tachyon-cli",
+      "description": "Inspect Tachyon Cloud Apps, builds, deployments, and logs with the Tachyon CLI.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Quantum Box"
+      },
+      "repository": "https://github.com/quantum-box/agent-packages",
+      "category": "developer-tools",
+      "tags": [
+        "tachyon",
+        "cloud-apps",
+        "build-logs",
+        "cli"
+      ]
     }
   ]
 }
