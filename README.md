@@ -10,8 +10,18 @@ Codex and Claude Code plugin marketplace for Quantum Box agent workflows.
 
 ### Codex
 
+From this repository root:
+
 ```bash
-codex plugin marketplace add .agents/plugins/marketplace.json
+codex plugin marketplace add .
+codex plugin add tachyon@quantum-box
+```
+
+From GitHub:
+
+```bash
+codex plugin marketplace add quantum-box/agent-packages
+codex plugin add tachyon@quantum-box
 ```
 
 ### Claude Code
@@ -20,7 +30,7 @@ From Claude Code:
 
 ```text
 /plugin marketplace add quantum-box/agent-packages
-/plugin install tachyon@quantum-box-agent-packages
+/plugin install tachyon@quantum-box
 /reload-plugins
 ```
 

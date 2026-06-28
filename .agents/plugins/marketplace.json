@@ -1,7 +1,7 @@
 {
-  "name": "quantum-box-agent-packages",
+  "name": "quantum-box",
   "interface": {
-    "displayName": "Quantum Box Agent Packages"
+    "displayName": "Quantum Box"
   },
   "plugins": [
     {
