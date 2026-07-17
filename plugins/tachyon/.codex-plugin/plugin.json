@@ -1,18 +1,18 @@
 {
   "name": "tachyon",
-  "version": "0.2.0",
-  "description": "Tachyon agent workflows for remote browser control, Tachyon CLI operations, Linear issue management, and Slack notification checks.",
+  "version": "0.3.0",
+  "description": "Tachyon agent workflows for remote browser control, Tachyon CLI operations, Linear issue management, Sentry issue operations, and Slack notification checks.",
   "author": {
     "name": "Quantum Box"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Tachyon",
-    "shortDescription": "Use Tachyon browser, CLI, Linear, and Slack workflows.",
-    "longDescription": "Use Tachyon workflows for the private k3s Cloudflare Mesh CDP browser gateway, Tachyon CLI Cloud App/build/log inspection, Linear issue management, and Slack notification verification through the Tachyon CLI.",
+    "shortDescription": "Use Tachyon browser, CLI, Linear, Sentry, and Slack workflows.",
+    "longDescription": "Use Tachyon workflows for the private k3s Cloudflare Mesh CDP browser gateway, Tachyon CLI Cloud App/build/log inspection, Linear issue management, Sentry issue operations, and Slack notification verification through the Tachyon CLI.",
     "developerName": "Quantum Box",
     "category": "Developer Tools",
     "capabilities": [],
-    "defaultPrompt": "Use the Tachyon skills to control the remote browser, inspect Tachyon Cloud App state, manage Linear issues, or verify Slack notifications."
+    "defaultPrompt": "Use the Tachyon skills to control the remote browser, inspect Tachyon Cloud App state, manage Linear or Sentry issues, or verify Slack notifications."
   }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tachyon Sentry"
+  short_description: "Inspect and manage Sentry issues through Tachyon CLI"
+  default_prompt: "Use $tachyon-sentry to inspect unresolved Sentry issues through the Tachyon CLI."

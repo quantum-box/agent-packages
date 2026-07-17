@@ -11,8 +11,8 @@
     {
       "name": "tachyon",
       "source": "./plugins/tachyon",
-      "description": "Use Tachyon browser, CLI, Linear, and Slack notification workflows from Claude Code.",
-      "version": "0.2.0",
+      "description": "Use Tachyon browser, CLI, Linear, Sentry, and Slack notification workflows from Claude Code.",
+      "version": "0.3.0",
       "author": {
         "name": "Quantum Box"
       },
@@ -24,6 +24,8 @@
         "cdp",
         "cloud-apps",
         "linear",
+        "sentry",
+        "observability",
         "slack",
         "notifications",
         "cli"
