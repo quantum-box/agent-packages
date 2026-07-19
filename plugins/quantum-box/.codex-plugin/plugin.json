@@ -1,0 +1,18 @@
+{
+  "name": "quantum-box",
+  "version": "0.1.0",
+  "description": "Quantum Box engineering workflows for taskdocs, design, implementation readiness, quality checks, versioning, pull requests, and releases.",
+  "author": {
+    "name": "Quantum Box"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Quantum Box Development",
+    "shortDescription": "Build and ship changes with Quantum Box's standard workflow.",
+    "longDescription": "Use Quantum Box's canonical engineering workflow for project orientation, taskdocs, design documents, ADRs, focused quality checks, required component version bumps, Ready pull requests, and post-merge release completion.",
+    "developerName": "Quantum Box",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Use the Quantum Box development skills to orient in the repository, track and design the task, validate the implementation, bump the owning component version, and prepare a Ready pull request."
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Complete"
+  short_description: "Finish Tachyon release work"
+  default_prompt: "Use $task-complete for release notes, version/tag work, and post-merge durable documentation. Use $task-pr-ready instead for normal Ready PR creation."
