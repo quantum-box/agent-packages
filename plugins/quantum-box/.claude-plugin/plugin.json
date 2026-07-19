@@ -1,0 +1,21 @@
+{
+  "name": "quantum-box",
+  "description": "Quantum Box engineering workflows for taskdocs, design, implementation readiness, quality checks, versioning, pull requests, and releases.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Quantum Box"
+  },
+  "repository": "https://github.com/quantum-box/agent-packages",
+  "skills": "./skills/",
+  "keywords": [
+    "quantum-box",
+    "development",
+    "taskdoc",
+    "design-doc",
+    "adr",
+    "quality",
+    "versioning",
+    "pull-request",
+    "release"
+  ]
+}

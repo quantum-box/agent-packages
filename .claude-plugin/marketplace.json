@@ -30,6 +30,28 @@
         "notifications",
         "cli"
       ]
+    },
+    {
+      "name": "quantum-box",
+      "source": "./plugins/quantum-box",
+      "description": "Use Quantum Box engineering, taskdoc, design, quality, versioning, pull request, and release workflows from Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Quantum Box"
+      },
+      "repository": "https://github.com/quantum-box/agent-packages",
+      "category": "developer-tools",
+      "tags": [
+        "quantum-box",
+        "development",
+        "taskdoc",
+        "design-doc",
+        "adr",
+        "quality",
+        "versioning",
+        "pull-request",
+        "release"
+      ]
     }
   ]
 }
