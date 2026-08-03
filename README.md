@@ -9,7 +9,18 @@ Codex and Claude Code plugin marketplace for Quantum Box agent workflows.
 
 ## Install
 
-### Codex
+### Codex app
+
+1. Open **Settings** in the Codex app (`Cmd+,`).
+2. Select **Plugins**, then open the **Marketplace** tab.
+3. Click **Add plugin marketplace**.
+4. Enter `quantum-box/agent-packages` in **Source**. Leave **Git ref** and **Sparse paths** empty, then click **Add marketplace**.
+5. Open the **Plugins** tab and search for `tachyon` or `quantum-box`.
+6. Open the plugin you want and click **Install plugin**. Repeat this step to install both plugins.
+
+For local development, enter the absolute path to this repository in **Source** instead of `quantum-box/agent-packages`. If an added marketplace or plugin does not appear immediately, click **Refresh** and start a new task.
+
+### Codex CLI
 
 From this repository root:
 
