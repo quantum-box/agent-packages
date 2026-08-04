@@ -1,4 +1,4 @@
 interface:
   display_name: "Tachyon Slack Notify"
-  short_description: "Verify, send, and collect replies for Tachyon Slack notifications."
-  default_prompt: "Use $tachyon-slack-notify to switch tenants, send a Slack notification (optionally with a thread_key), collect thread replies via /v1/chat/replies, and report the API response and any permission or destination configuration blockers."
+  short_description: "Verify, send, collect replies for, and answer Tachyon Slack notifications."
+  default_prompt: "Use $tachyon-slack-notify to switch tenants, send a Slack notification (optionally with a thread_key), collect thread replies via /v1/chat/replies, answer a reply with a threaded message or an emoji reaction (tachyon ops slack react), and report the API response and any permission or destination configuration blockers."
