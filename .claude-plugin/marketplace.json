@@ -12,7 +12,7 @@
       "name": "tachyon",
       "source": "./plugins/tachyon",
       "description": "Use Tachyon browser, CLI, Linear, Sentry, and Slack notification workflows from Claude Code.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Quantum Box"
       },
